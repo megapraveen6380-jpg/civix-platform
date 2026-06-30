@@ -1,0 +1,11 @@
+{
+  "name": "Social Constraint Portal",
+  "description": "A real-time, AI-powered community complaint tracking and 1km broadcast platform with automated department routing, transparency reporting, and citizen feedback audits.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

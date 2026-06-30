@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@config": [
+        "firebase-applet-config.json"
+      ]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "types": ["google.maps", "node"]
+  },
+  "include": [
+    "src/**/*",
+    "firebase-applet-config.json",
+    "server.ts",
+    "gmail-backend.ts",
+    "vite.config.ts"
+  ]
+}
